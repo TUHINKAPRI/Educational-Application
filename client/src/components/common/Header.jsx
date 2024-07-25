@@ -52,10 +52,14 @@ function Header() {
             ))}
           </div>
           <div className="flex gap-5 items-center py-2 md:py-0">
-            <Button variant="secondary" className="px-5">
-              Login
-            </Button>
-            <Button className="px-5">Register</Button>
+            <Link  to='/sign-in' >
+              <Button variant="secondary" className="px-5">
+                Login
+              </Button>
+            </Link>
+            <Link  to="/sign-up">
+              <Button className="px-5">Register</Button>
+            </Link>
           </div>
         </div>
       </div>
